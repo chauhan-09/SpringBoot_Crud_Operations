@@ -24,6 +24,8 @@ public class ProductController {
 		return service.add_product(p);
 	}
 	
+	
+	
 	@GetMapping
 	public List<Product> get_product() {
 		return service.get_all_product();
